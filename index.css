@@ -1,0 +1,20 @@
+html{
+    background-color: black;
+    color: white;
+    font-family: "BebasNeueRegular";
+    font-family: 'Asap Condensed', sans-serif;
+}
+.nav{
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav a{
+    font-style: normal;
+    text-decoration: none !important;
+    color: white;
+}
