@@ -1,12 +1,16 @@
 html{
     background-color: black;
     color: white;
-    font-family: "BebasNeueRegular";
     font-family: 'Asap Condensed', sans-serif;
 }
+
+body{
+    font-family: 'Asap Condensed', sans-serif;
+}
+
 .nav{
-    padding-left: 20px;
-    margin-right: 20px;
+    padding-top: 15px;
+    background-color: black;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -14,7 +18,24 @@ html{
 }
 
 .nav a{
+    padding-left: 20px;
+    padding-right: 20px;
     font-style: normal;
     text-decoration: none !important;
     color: white;
+}
+
+.c-flex{
+    padding-top: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-flex img{
+    width: 100%;
+    margin: auto;
+    height: 80vh;
+    object-fit: contain;
 }
